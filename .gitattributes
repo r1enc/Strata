@@ -1,0 +1,17 @@
+# Enforce LF line endings for all text files in the repository,
+# regardless of OS. This prevents CRLF/LF noise in diffs.
+* text=auto eol=lf
+
+# Explicitly binary files — never touch line endings
+*.png binary
+*.ico binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.zip binary
+*.crx binary
